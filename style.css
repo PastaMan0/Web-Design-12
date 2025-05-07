@@ -1,0 +1,55 @@
+a:link{
+    color: lightblue;
+}
+
+a:hover{
+    color: dodgerblue;
+    font-size: 1.1em;
+}
+
+a:active{
+    color: darkblue;
+}
+
+a:visited{
+    color: gray;
+}
+
+/* Styling List Items */
+li:hover{
+    background-color: yellow;
+}
+
+li:not(:hover){
+    color: gray;
+}
+
+li:nth-child(odd){
+    background-color: lightgray;
+}
+
+li:nth-child(even){
+    background-color: white;
+}
+
+li:nth-child(3n){
+    color: red;
+}
+
+/* Interactive Hover Effect */
+
+#greeting p{
+    display: none;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#greeting:hover p{
+    display: block;
+}
+
+#footer{
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+}
